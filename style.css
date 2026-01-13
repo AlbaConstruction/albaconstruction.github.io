@@ -16,7 +16,6 @@ body {
  width: 100%;
 max-width: 1200px;
 margin: 0 auto;
-
 }
 
 .topbar {
@@ -53,20 +52,23 @@ margin: 0 auto;
 }
 
 .hero {
-  background: url('photos/pexels-marviio-15641049.jpg') center/cover no-repeat;
+  background: url('photos/pexels-marviiio-15641049.jpg') center/cover no-repeat;
   color: #fff;
   text-align: center;
   min-height: 70vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  padding: 20px;
 }
 
 .hero .overlay {
   background-color: rgba(0, 0, 0, 0.65);
-  padding: 60px 20px;
+  padding: 40px 20px;
   border-radius: 8px;
+  max-width: 100%;
 }
 
 h2 {
@@ -286,6 +288,17 @@ footer {
   background: #222;
 }
 
-Prevent mobile horizontal overflow
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    padding: 16px;
+  }
+
+  .hero .overlay {
+    padding: 24px 16px;
+  }
+}
+
+
 
 
