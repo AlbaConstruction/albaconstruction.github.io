@@ -13,9 +13,10 @@ body {
 }
 
 .container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 0 20px;
+ width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+
 }
 
 .topbar {
@@ -284,4 +285,5 @@ footer {
 .info-item:hover {
   background: #222;
 }
+
 
